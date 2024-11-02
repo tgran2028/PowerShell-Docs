@@ -5,9 +5,29 @@
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers-extra/features/ripgrep:1": {},
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers-extra/features/fzf:1": {},
+		"ghcr.io/itsmechlark/features/1password:1": {},
+		"ghcr.io/devcontainers-extra/features/fd:1": {},
+		"ghcr.io/devcontainers/features/dotnet:2": {},
+		"ghcr.io/larsnieuwenhuizen/features/jqyq:0": {},
+		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+			"installTinyTex": true,
+			"installChromium": true
+		},
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"configureZshAsDefaultShell": true
+		},
+		"ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0": {},
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/python:1": {
+			"installJupyterlab": true
+		},
 		"ghcr.io/devcontainers/features/powershell:1": {
 			"modules": "Documentarian,Documentarian.Vale,Documentarian.MicrosoftDocs,Documentarian.ModuleAuthor"
-		}
+		},
+		"ghcr.io/jpawlowski/devcontainer-features/powershell-extended:2": {}
 	},
 	"customizations": {
 		"vscode": {
